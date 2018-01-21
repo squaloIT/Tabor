@@ -1,0 +1,324 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+a
+{
+	text-decoration: none;
+}
+ul
+{
+	list-style-type:none;
+}
+body
+{
+	font-family: 'Dosis', sans-serif;
+}
+.cleaner
+{
+	clear:both;
+}
+#header
+{
+	height:70px;
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	background-color: rgba(255,255,255,0.8);
+	box-shadow:3px 3px 5px #424e6f;
+	z-index:10;
+}
+.centriraj
+{
+	width:1200px;
+	margin:0 auto;
+}
+#logo
+{
+	float:left;
+	width:200px;
+	height:inherit;
+}
+#logo h2
+{
+	color:#36454f;
+	font-family: 'Dosis', sans-serif;
+}
+#meni
+{
+	height:inherit;
+	width:45%;
+	float:right;
+}
+#meni ul li
+{
+	display: inline-block;
+	margin-top:5px;
+	padding-top:20px;
+	font-family: 'Dosis', sans-serif;
+}
+#meni ul .active
+{
+	border-top:3px solid #424e6f;
+}
+#meni ul li a
+{
+	padding:20px 30px;
+	color:#36454f;
+	font-size:18px;
+}
+#meni ul li a:hover
+{
+	border-top:3px solid #424e6f;
+	text-decoration: none;
+}
+#omot
+{
+	margin:auto;
+	width:1080px;
+}
+#slajder
+{
+	width: 100%;
+	height:650px;
+	background-image: url("../img/wikiFried.jpg");
+}
+.naslov
+{
+	border-top:2px solid #424e6f;
+	margin-top:50px;
+}
+.naslov h1
+{
+	color:#424e6f;
+	text-align: center;
+	width:25%;
+	margin:0 auto;
+	background-color: #FFF;
+	text-transform: uppercase;
+	margin-top:-20px;
+    font-size: 36px;
+    font-weight: 400;
+}
+.duzi h1
+{
+	width:35%;
+}
+.tekst
+{
+	margin-top:50px;
+	text-align:center;
+	margin-bottom:100px;
+}
+.tekst img
+{
+	margin-top:30px;
+}
+.tekst img[alt~="tabor"]
+{
+	margin-top:0px;
+	margin-bottom:20px;
+	cursor:pointer;
+}
+.tekst p
+{
+	font-size:20px;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #1a0a09;
+}
+.tekst a
+{
+	font-size:22px;
+	color: #db9b9b;
+	font-weight: 600;
+	text-transform: uppercase;
+	display:block;
+	margin-top:15px;
+}
+.tekst h2
+{
+	font-size: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #db9b9b;
+}
+.tekst h4
+{
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-top:5px;
+    color: #1a0a09;
+}
+#radnoVreme
+{
+	width:100%;
+	height:300px;
+	text-align:center;
+	background-color:#424e6f;
+	padding-top:30px;
+}
+#radnoVreme h2
+{
+	font-size: 32px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color:	#db9b9b;
+}
+#social
+{
+	width:500px;
+	margin:0 auto;
+}
+#social img
+{
+	margin-left: 50px;
+}
+#social img:first-child
+{
+	margin-left: 30px;
+}
+#footer
+{
+	width:100%;
+	height:60px;
+	background-color: #db9b9b;
+	margin-top:40px;
+	padding-top:20px;
+}
+#copyright
+{
+	float:left;
+	color:#424e6f;
+}
+#developed
+{
+	float:right;
+	color:	#36454f;
+}
+/* ------------------ O NAMA ------------------ */
+
+.podvucen
+{
+	border-bottom: 2px solid #424e6f;
+	font-family: 'Open Sans', sans-serif;
+}
+.nemaBorder
+{
+	border-bottom: 0px solid #424e6f;
+}
+.podvucen h3
+{
+	font-weight: 300;
+	font-size:20px;
+	margin-bottom:30px;
+}
+.podvucen p
+{
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+.podvucen i
+{
+	display:block;
+	margin-top:-40px;
+	font-size: 18px;
+	font-weight: 100;
+}
+.podvucen .pisac
+{
+	margin-top:20px;
+}
+.podvucen .smanjiTop
+{
+	margin-top:-40px;
+}
+.instaDuzi h1
+{
+	width:45%;
+}
+.instaBlok
+{
+	margin-top:30px;
+}
+/* ---------------- Galerija ----------------- */
+#lightgallery
+{
+	margin-top:30px;
+}
+#lightgallery img
+{
+    margin-top:5px;
+    margin-left: 5px;
+}
+#lightgallery img:first-child
+{
+	margin-left:0px;
+}
+.galerijaNaslov
+{
+	margin-top:150px;
+}
+/* ----------- KONTAKT ------------ */
+
+.pomeriOdozgo
+{
+	margin-top:100px;
+}
+.kontaktForma
+{
+	margin-top:40px;
+}
+.info
+{
+	margin-top:40px;
+	margin-bottom:80px;
+}
+.info p
+{
+	font-size:20px;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #1a0a09;
+    line-height: 1.12em;
+}
+.info a
+{
+	color:#db9b9b;
+	font-weight: 500;
+}
+
+.contact_info p
+{
+	font-size:24px;
+}
+.contact_form input
+{
+	margin-top:10px;
+}
+.contact_form input[type="text"]
+{
+	width:100%;
+	height:38px;
+}
+.contact_form textarea
+{
+	margin-top:10px;
+	width:100%;
+	height:130px;
+}
+.contact_form img
+{
+	margin-top:10px;
+}
+.contact_form input[type="button"]
+{
+	height:40px;
+	background-color:#424e6f;
+	font-size:16px;
+	color:#fbf7f5;
+	border:1px solid #424e6f;
+}
